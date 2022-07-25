@@ -28,3 +28,14 @@ function guestPlusThree(){
     j += 3;
     guestScore.textContent = j;
 }
+
+function reset(){
+    i = 0;
+    homeScore.textContent = i;
+    j = 0;
+    guestScore.textContent = j;
+    // if(i > 0 || j > 0){
+    //     i = 0;
+    //     j = 0;
+    // }
+}
