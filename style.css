@@ -72,3 +72,10 @@ h1{
     width: 55%;
     cursor: pointer;
 }
+
+@media (max-width: 500px){
+    main{
+        width: 100%;
+        margin: 10px;
+    }
+}
